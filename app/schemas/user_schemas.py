@@ -40,11 +40,11 @@ class UserBase(BaseModel):
 
     @validator('username')
     def validate_username(cls, v):
-         if len(v) < 3 or len(v) > 50:
+        if len(v) < 3 or len(v) > 50:
             raise ValueError("Username must be between 3 and 50 characters long.")
-         if not re.match(r"^[a-zA-Z0-9_-]+$", v):
+        if not re.match(r"^[a-zA-Z0-9_-]+$", v):
             raise ValueError("Username can only contain letters, numbers, underscores, and hyphens.")
-         return v
+        return v
 
     @validator('full_name')
     def validate_full_name(cls, v):
@@ -62,6 +62,10 @@ class UserBase(BaseModel):
         if not re.search(r"\.(jpg|jpeg|png)$", parsed_url.path):
             raise ValueError("Profile picture URL must point to a valid image file (JPEG, PNG).")
         return v
+
+    @validator('username', pre=True)
+    def normalize_username(cls, v):
+        return v.lower() if v else None
 
     class Config:
         json_schema_extra = {
