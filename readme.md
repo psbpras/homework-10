@@ -67,3 +67,10 @@ All above issues were resolved through dedicated pull requests with linked commi
 - **GitHub Actions**
 
 ---
+
+## Summary 
+
+Over the course of this project, I got hands-on experience with software version control by actively managing a Git repository. I used pull requests (PRs) not just to track changes, but also to maintain clean, reviewable code and ensure that every update was tested before merging into the main branch. Along the way, I also gained a stronger understanding of RESTful API integration, enabling smooth communication between different services in the system.
+
+One of the biggest takeaways was setting up and improving automated CI/CD pipelines. Every push triggered builds and unit tests automatically, and once everything passed, the app was packaged into a Docker container and pushed straight to Docker Hub. This streamlined the entire development-to-deployment cycle and showed me how real-world applications can scale more efficiently with containerization and automation in place.
+
