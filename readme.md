@@ -12,7 +12,7 @@ The CI pipeline triggered on every push to the `main` branch includes two jobs:
 
 🟢 All jobs completed successfully.  
 ⏱ Total duration: **4m 31s**  
-🔗 [View GitHub Actions Run](https://github.com/kovinaveenkumar/homework10/actions/runs/14505235800)
+🔗 [View GitHub Actions Run] https://github.com/psbpras/homework-10/actions/runs/14648945475
 
 ---
 
@@ -20,7 +20,9 @@ The CI pipeline triggered on every push to the `main` branch includes two jobs:
 
 The Docker image was built and successfully pushed to Docker Hub.
 
-- Repository: **[kovinaveenkumar/homework10](https://hub.docker.com/r/kovinaveenkumar/homework10)**
+- Repository:
+- <img width="931" alt="{E458BE8A-C101-46C3-8B11-BB4693A9998E}" src="https://github.com/user-attachments/assets/856a09d8-a353-43e9-836e-277c73b35ea9" />
+
 
 
 ---
@@ -33,22 +35,19 @@ Test suite executed using `pytest`, with an overall test coverage of **90%**.
 
 ## 🛠️ Closed Issues and Fixes
 
-- **[#11: passwords](https://github.com/kovinaveenkumar/homework10/issues/11)**  
+- **[passwords]https://github.com/psbpras/homework-10/tree/passwords**  
   Fixed bugs related to password validation and hashing.
 
-- **[#9: email](https://github.com/kovinaveenkumar/homework10/issues/9)**  
+- **[email]https://github.com/psbpras/homework-10/tree/email**  
   Resolved email validation issues and standardized email input formats.
 
-- **[#7: username](https://github.com/kovinaveenkumar/homework10/issues/7)**  
+- **[username] https://github.com/psbpras/homework-10/tree/username**  
   Implemented checks for duplicate usernames and format restrictions.
 
-- **[#5: profile-pic](https://github.com/kovinaveenkumar/homework10/issues/5)**  
+- **[profile-pic]https://github.com/psbpras/homework-10/tree/profile-pic**  
   Fixed image upload validation and format support.
 
-- **[#3: username](https://github.com/kovinaveenkumar/homework10/issues/3)**  
-  Handled username uniqueness at the DB level; closed after refactor.
-
-- **[#1: Mismatch data](https://github.com/kovinaveenkumar/homework10/issues/1)**  
+- **[1_Mismatch data]https://github.com/psbpras/homework-10/tree/1_mismatch-data**  
   Fixed inconsistent data formatting between API and frontend.
 
 ---
