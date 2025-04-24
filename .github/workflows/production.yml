@@ -71,7 +71,7 @@ jobs:
         with:
           push: true
           tags: kaw393939/wis_club_api:${{ github.sha }} # Uses the Git SHA for tagging
-          platforms: linux/amd64,linux/arm64 # Multi-platform support
+          platforms: linux/amd64,linux/arm64 # Multi-platform supports
           cache-from: type=registry,ref=kaw393939/wis_club_api:cache
           cache-to: type=inline,mode=max
           
